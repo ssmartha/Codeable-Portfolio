@@ -1,3 +1,7 @@
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
 body{
   font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif;
   font-size: 18px;
@@ -75,12 +79,36 @@ body{
 }
 
 .main{
-  max-width: 352px;
+  max-width: 992px;
   margin-top: 48px;
-  margin-bottom: 77px;
+  margin-bottom: 59px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+}
+
+.presentation-box{
+  display: grid;
+  grid-template-areas: 
+  "presentation-box-h1 presentation-box-h1"
+  "presentation-box-p presentation-box-p"
+  "articles-title articles-title"
+  "articles articles";
+  margin-top: 48px;
+  margin-bottom: 48px;
+  max-width: 992px;
+  margin-right: auto;
+  margin-right: auto;
+}
+
+.presentation-box h1{
+  grid-area: presentation-box-h1;
+  /* max-width: 100%; */
+  margin-bottom: 16px;
+}
+.presentation-box p{
+  grid-area: presentation-box-p;
+  margin-bottom: 16px;
 }
 
 h1{
@@ -117,3 +145,13 @@ h2{
 .figure__img{
   max-width: 100%;
 }
+
+/* .container-sm{
+  max-width: 640px;
+  padding
+}
+.container-md{
+}
+.container-lg{}
+.container-xl{} */
+

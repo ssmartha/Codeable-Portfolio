@@ -1,0 +1,13 @@
+.portfolio__cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+  /* grid-template-columns: repeat(auto-fill, minmax(319px, 1fr)); */
+  gap:2em;
+}
+
+.portfolio__cards .card{
+  padding: 24px 24px 24px 24px;
+}
+
+
+

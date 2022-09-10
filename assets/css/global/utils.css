@@ -36,6 +36,14 @@
   padding-bottom: 3rem;
 }
 
+.pb-1{
+  padding-bottom: 1em;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
 .my-0\.5{
   margin-top: .5rem;
   margin-bottom: .5rem;
@@ -61,3 +69,11 @@
 .bg-primary-darker {
   background-color: var(--primary-darker);
 }
+
+.text-align{
+  text-align: center;
+}
+
+
+
+

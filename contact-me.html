@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Contact me!</title>
+</head>
+<body>
+  <header class="header">
+      <div class="container-lg">
+        <nav class="navbar">
+          <a href="/index.html" class="header__logo text-decoration-none">
+            <h1 class="head-md semibold">Martha Huaman</h1>
+          </a>
+          <ul class="navbar__links list-style-none">
+            <li><a href="/article.html" class="link text semibold">Articles</a></li>
+            <li>
+              <a href="/portfolio.html" class="link text semibold">Portfolio</a>
+            </li>
+            <li><a href="/about-me.html" class="link text semibold">About</a></li>
+            <li>
+              <a
+                href="./contact-me.html"
+                class="button button--primary button--sm text-decoration-none"
+              >
+                Contact Me
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="container-lg">
+      <div class="section-md section-sm-lr">
+        <div class="contact__header text-align">
+          <h2>Contact Me</h2>
+          <p>Looking to expand your team? Or do you need a web developer for a specific project? If I can help you in any way don't hesitate to fill this form.</p>
+        </div>
+        <form class="container-sm">
+          <div>
+            <label>
+              FIRST NAME
+              <input type="text" value="John">
+            </label>
+            <label>
+              LAST NAME
+              <input type="text" value="Doe">
+            </label>
+            <label>
+              EMAIL
+              <input type="email" value="john@mail.com">
+            </label>
+            <label>
+              COMPANY
+              <input type="text" value="Company SA">
+            </label>
+            <label>
+              PHONE
+              <input type="tel" value="987654321">
+            </label>
+            <label>
+              COUNTRY
+              <select name="select-country">
+                <option select hidden value="" >Select one option</option>
+                <option value="PE">Peru</option>
+                <option value="EC">Ecuador</option>
+                <option value="CL">Chile</option>
+              </select>
+            </label>
+          </div>
+          <div>
+            <p>
+              HOW CAN I HELP you?
+            </p>
+            <label>
+              <input type="checkbox" name="help" value="job-offer">
+              <div>
+                <p>Job Offer</p>
+                <p>If you are looking to expand your team</p>
+              </div>
+            </label>
+            <label>
+              <input type="checkbox" name="help" value="Project Offer">
+              <div>
+                <p>Project Offer</p>
+                <p>If you are looking to expand your team</p>
+              </div>
+            </label>
+            <label>
+              <input type="checkbox" name="help" value="Collaboration">
+              <div>
+                <p>Collaboration</p>
+                <p>If you are looking to expand your team</p>
+              </div>
+            </label>
+            <label>
+              <input type="checkbox" name="help" value="other">
+              <div>
+                <p>Other</p>
+              </div>
+            </label>
+          </div>
+
+        </form>
+      </div>
+    </section>
+</body>
+</html>

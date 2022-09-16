@@ -60,6 +60,10 @@
   margin-bottom: 1rem;
 }
 
+.myx-2{
+  margin: 2rem;
+}
+
 .text-primary-regular {
   color: var(--primary-regular);
 }
@@ -94,6 +98,10 @@
 
 .gap-0\.5 {
   gap: 0.5rem;
+}
+
+.uppercase{
+  text-transform: uppercase;
 }
 
 

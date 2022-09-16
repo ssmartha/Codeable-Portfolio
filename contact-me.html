@@ -36,11 +36,11 @@
 
     <section class="contact container-lg">
       <div class="section-md section-sm-lr">
-        <div class="contact__header text-align">
+        <div class="text-align">
           <h2>Contact Me</h2>
           <p>Looking to expand your team? Or do you need a web developer for a specific project? If I can help you in any way don't hesitate to fill this form.</p>
         </div>
-        <form class="contact_content container-sm">
+        <form class="contact_content container-sm" >
           <div class="inputs">
             <div class="input-container">
               <label for="first-name" class="text-xs light overline">
@@ -52,10 +52,10 @@
               type="text"
               name="first-name"
               placeholder="John"
-              pattern="^[a-z| A-Z].*"
+              pattern="\w+"
               />
               <span class="text-xs input__error">
-                Sorry, that first name doesn't seem right. Please enter a valid first name
+                Please enter a valid first name
               </span>
             </div>
             <div class="input-container">
@@ -69,10 +69,10 @@
               type="text"
               name="last-name"
               placeholder="Doe"
-              pattern="^[a-z| A-Z].*"
+              pattern="\w+"
               />
               <span class="text-xs input__error">
-                Sorry, that last name doesn't seem right. Please enter a valid last name
+                Please enter a valid last name
               </span>
             </div>
             <div class="input-container">
@@ -103,15 +103,15 @@
               type="text"
               name="company"
               placeholder="Company SA"
-              pattern="^[a-z| A-Z].*"
+              pattern="\w+"
               />
               <span class="text-xs input__error">
-                Sorry, that company name doesn't seem right. Please enter a valid name
+                Please enter a valid company name
               </span>
             </div>
             <div class="input-container">
               <!-- <label class="input-group"> -->
-              <label for="company" class="text-xs light overline">
+              <label for="tel" class="text-xs light overline">
                 PHONE
               </label>
               <input
@@ -130,54 +130,82 @@
               <label for="country" class="text-xs light overline">
                 COUNTRY
               </label>
-              <select class="text-md light select" name="selected-country" id="country" required >
-                <option hidden value="" selected >Select one option</option>
+              <select class="text-md light select" name="selected-country" id="country" required>
+                <option hidden selected value="" >Select one option</option>
                 <option value="BO">Bolivia</option>
                 <option value="CO">Colombia</option>
                 <option value="EC">Ecuador</option>
                 <option value="PE">Peru</option>
                 <option value="VE">Venezuela</option>
               </select>
-              <span class="text-xs option__error">
-              Please select an option
+              <!-- <span class="text-xs option__error">
+              Please select an option -->
               </span>
             </div>
-            
+          </div>
 
-          </div>
           <div class="checkboxes">
-            <p>
-              HOW CAN I HELP you?
-            </p>
-            <label>
-              <input type="checkbox" name="help" value="job-offer">
-              <div>
-                <p>Job Offer</p>
-                <p>If you are looking to expand your team</p>
+            <p class="text-xs light overline uppercase">how can i help you? </p>
+            <div class="flex gap-0.5">
+              <div class="checkbox">
+                <input
+                  type="checkbox"
+                  name="check-1"
+                  id="check-1"
+                  class="checkbox__input"
+                />
+                <div class="checkbox__text-group">
+                  <label for="check-1" class="text-sm light checkbox__label">
+                    Job Offer
+                  </label>
+                  <span class="text-xs light checkbox__help">If you are looking to expand your team</span>
+                </div>
               </div>
-            </label>
-            <label>
-              <input type="checkbox" name="help" value="Project Offer">
-              <div>
-                <p>Project Offer</p>
-                <p>If you are looking to expand your team</p>
+              <div class="checkbox">
+                <input
+                  type="checkbox"
+                  name="check-2"
+                  id="check-2"
+                  class="checkbox__input"
+                />
+                <div class="checkbox__text-group">
+                  <label for="check-2" class="text-sm light checkbox__label">
+                    Project Offer
+                  </label>
+                  <span class="text-xs light checkbox__help">If you are looking to expand your team</span>
+                </div>
               </div>
-            </label>
-            <label>
-              <input type="checkbox" name="help" value="Collaboration">
-              <div>
-                <p>Collaboration</p>
-                <p>If you are looking to expand your team</p>
+              <div class="checkbox">
+                <input
+                  type="checkbox"
+                  name="check-3"
+                  id="check-3"
+                  class="checkbox__input"
+                />
+                <div class="checkbox__text-group">
+                  <label for="check-3" class="text-sm light checkbox__label">
+                    Collaboration
+                  </label
+                  >
+                  <span class="text-xs light checkbox__help">If you are looking to expand your team</span>
+                </div>
               </div>
-            </label>
-            <label>
-              <input type="checkbox" name="help" value="other">
-              <div>
-                <p>Other</p>
+              <div class="checkbox">
+                <input
+                  type="checkbox"
+                  name="check-4"
+                  id="check-4"
+                  class="checkbox__input"
+                />
+                <div class="checkbox__text-group">
+                  <label for="check-3" class="text-sm light checkbox__label">
+                    Other
+                  </label>
+                </div>
               </div>
-            </label>
+            </div>
           </div>
-          <button type="submit">Send</button>
+          <button type="submit" class="button button--primary w-full">Send</button>
         </form>
       </div>
     </section>

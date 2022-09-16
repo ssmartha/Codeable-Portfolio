@@ -1,15 +1,14 @@
-/* .contact__header{
-  
-} */
-.contact__header{
+/* .contact__header,
+.inputs,
+.checkboxes,
+.button-submit
+{
   margin: 32px;
-}
+} */
+
 
 .inputs{
-  margin: 32px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+  gap: 2rem;
 }
-
-.checkboxes{
-  margin: 32px;
-}
-

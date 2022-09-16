@@ -40,5 +40,6 @@
   max-width: min-content;
   align-self: baseline;
   padding-top: 10px;
+  transition: all;
 }
 

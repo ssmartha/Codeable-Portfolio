@@ -80,6 +80,22 @@
   text-align: center;
 }
 
+..flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.gap-0\.5 {
+  gap: 0.5rem;
+}
+
 
 
 

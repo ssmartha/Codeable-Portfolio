@@ -42,35 +42,108 @@
         </div>
         <form class="contact_content container-sm">
           <div class="inputs">
-            <label class="input-group">
-              FIRST NAME
-              <input type="text" value="John" class="">
-            </label>
-            <label class="input-group">
-              LAST NAME
-              <input type="text" value="Doe">
-            </label>
-            <label class="input-group">
-              EMAIL
-              <input type="email" value="john@mail.com">
-            </label>
-            <label class="input-group">
-              COMPANY
-              <input type="text" value="Company SA">
-            </label>
-            <label class="input-group">
-              PHONE
-              <input type="tel" value="987654321">
-            </label>
-            <label class="input-group">
-              COUNTRY
-              <select name="select-country">
-                <option select hidden value="" >Select one option</option>
-                <option value="PE">Peru</option>
+            <div class="input-container">
+              <label for="first-name" class="text-xs light overline">
+                FIRST NAME
+              </label>
+              <input
+              class="input"
+              id="first-name"
+              type="text"
+              name="first-name"
+              placeholder="John"
+              pattern="^[a-z| A-Z].*"
+              />
+              <span class="text-xs input__error">
+                Sorry, that first name doesn't seem right. Please enter a valid first name
+              </span>
+            </div>
+            <div class="input-container">
+              <!-- <label class="input-group"> -->
+              <label for="last-name" class="text-xs light overline">
+                LAST NAME
+              </label>
+              <input
+              class="input"
+              id="last-name"
+              type="text"
+              name="last-name"
+              placeholder="Doe"
+              pattern="^[a-z| A-Z].*"
+              />
+              <span class="text-xs input__error">
+                Sorry, that last name doesn't seem right. Please enter a valid last name
+              </span>
+            </div>
+            <div class="input-container">
+              <!-- <label class="input-group"> -->
+              <label for="email" class="text-xs light overline">
+                EMAIL
+              </label>
+              <input
+              class="input"
+              id="email"
+              type="email"
+              name="email"
+              placeholder="john@mail.com"
+              pattern=".+@mail\.com"
+              />
+              <span class="text-xs input__error">
+                Sorry, that email doesn't seem right. Please enter a valid email
+              </span>
+            </div>
+            <div class="input-container">
+              <!-- <label class="input-group"> -->
+              <label for="company" class="text-xs light overline">
+                COMPANY
+              </label>
+              <input
+              class="input"
+              id="company"
+              type="text"
+              name="company"
+              placeholder="Company SA"
+              pattern="^[a-z| A-Z].*"
+              />
+              <span class="text-xs input__error">
+                Sorry, that company name doesn't seem right. Please enter a valid name
+              </span>
+            </div>
+            <div class="input-container">
+              <!-- <label class="input-group"> -->
+              <label for="company" class="text-xs light overline">
+                PHONE
+              </label>
+              <input
+              class="input"
+              id="tel"
+              type="tel"
+              name="tel"
+              placeholder="987654321"
+              pattern="^\d{9}$"
+              />
+              <span class="text-xs input__error">
+                Sorry, that phone name doesn't seem right. Please enter a valid phone
+              </span>
+            </div>
+            <div class="input-container">
+              <label for="country" class="text-xs light overline">
+                COUNTRY
+              </label>
+              <select class="text-md light select" name="selected-country" id="country" required >
+                <option hidden value="" selected >Select one option</option>
+                <option value="BO">Bolivia</option>
+                <option value="CO">Colombia</option>
                 <option value="EC">Ecuador</option>
-                <option value="CL">Chile</option>
+                <option value="PE">Peru</option>
+                <option value="VE">Venezuela</option>
               </select>
-            </label>
+              <span class="text-xs option__error">
+              Please select an option
+              </span>
+            </div>
+            
+
           </div>
           <div class="checkboxes">
             <p>
@@ -104,7 +177,7 @@
               </div>
             </label>
           </div>
-
+          <button type="submit">Send</button>
         </form>
       </div>
     </section>

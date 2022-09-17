@@ -45,6 +45,12 @@
   margin: auto;
 }
 
+.max-width-bsl{
+  max-width: 992px;
+  margin: auto;
+}
+
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -67,6 +73,10 @@
 
 .mb-1 {
   margin-bottom: 1rem;
+}
+
+.myx-auto{
+  margin: auto;
 }
 
 .myx-2{

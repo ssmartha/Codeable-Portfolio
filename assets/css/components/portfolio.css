@@ -1,13 +1,57 @@
 .portfolio__cards{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
-  /* grid-template-columns: repeat(auto-fill, minmax(319px, 1fr)); */
-  gap:2em;
+  grid-template-columns: repeat(auto-fill, minmax(480px,1fr));
+  gap: 1.3125rem 2rem;
 }
 
-.portfolio__cards .card{
-  padding: 24px 24px 24px 24px;
+.project-card{
+  padding: 24px;
 }
+
+.card-header-icons{
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.pl-icons{
+  display: flex;
+  gap: 1rem;
+}
+
+.pl-icon{
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: var(--gray-100);
+}
+
+.a-icon{
+  width: 18.01px;
+  height: 18.01px;
+  padding-top: 3px;
+}
+
+.v-icon{
+  padding: 12px 8px 11.41px 8px;
+}
+
+.r-icon{
+  padding: 10px 10px 10.07px 10px;
+}
+
+.g-icon{
+  padding: 9px 8px 8.33px 8px;
+}
+
+.project-card__title{
+  margin-bottom: 8px;
+}
+
+.project-card__subtitle{
+  margin-bottom: 8px;
+}
+
 
 
 

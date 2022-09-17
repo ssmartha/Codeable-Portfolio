@@ -140,6 +140,10 @@
   background-color: var(--primary-light);
 }
 
+.bg-gray-100 {
+  background-color: var(--gray-100);
+}
+
 .br-6{
   border-radius: 6px;
 }

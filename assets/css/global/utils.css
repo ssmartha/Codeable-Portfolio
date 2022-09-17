@@ -40,10 +40,16 @@
   padding-bottom: 1em;
 }
 
+.max-width-sm{
+  max-width: 640px;
+  margin: auto;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
 }
+
 
 .mx-0{
   margin-left: 0;
@@ -62,6 +68,10 @@
 
 .myx-2{
   margin: 2rem;
+}
+
+.mb-2{
+  margin-bottom: 2rem;
 }
 
 .text-primary-regular {
@@ -96,13 +106,23 @@
   flex-direction: column;
 }
 
+/* .fg-center{
+  align-items: center;
+  justify-content: center;
+} */
+
 .gap-0\.5 {
   gap: 0.5rem;
+}
+
+.gap-2 {
+  gap: 2rem;
 }
 
 .uppercase{
   text-transform: uppercase;
 }
+
 
 
 

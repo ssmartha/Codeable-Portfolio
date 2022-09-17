@@ -1,14 +1,6 @@
-/* .contact__header,
-.inputs,
-.checkboxes,
-.button-submit
-{
-  margin: 32px;
-} */
-
-
 .inputs{
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(304px,1fr));
   gap: 2rem;
 }
+

@@ -60,7 +60,7 @@
 /* SELECT */
 
 .select {
-  padding: 8px 12px;
+  padding: 0.625rem 0.75rem;
   border-radius: 6px;
   border: 1px solid var(--gray-700);
   appearance: none;

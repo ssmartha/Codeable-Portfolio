@@ -23,7 +23,11 @@
 .pl-icon{
   width: 2.5rem;
   height: 2.5rem;
-  fill: var(--gray-100);
+}
+
+.pl-icon-sm{
+  width: 1.125rem;
+  height: 1.25rem;
 }
 
 .a-icon{

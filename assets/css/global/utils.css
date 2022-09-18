@@ -31,6 +31,10 @@
   text-decoration: none;
 }
 
+.text-transform-none{
+  text-transform: none;
+}
+
 .px-0 {
   padding-left: 0;
   padding-right: 0;
@@ -183,6 +187,10 @@
 
 .uppercase{
   text-transform: uppercase;
+}
+
+.object-fit-cv{
+  object-fit: cover;
 }
 
 

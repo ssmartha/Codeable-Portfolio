@@ -21,3 +21,10 @@
   border-radius: 8px;
   object-fit: cover;
 }
+
+.pip-preview{
+  width: 384px;
+  height: 327px;
+  border-radius: 8px;
+  /* object-fit: cover; */
+}

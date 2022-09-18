@@ -48,6 +48,21 @@
   padding-bottom: 1em;
 }
 
+.pr-21{
+  padding-right: 21px;
+}
+
+.pr-61{
+  padding-right: 61px;
+}
+
+.mr-61{
+  margin-right: 61px;
+}
+
+
+
+
 .max-width-sm{
   max-width: 640px;
   margin: auto;
